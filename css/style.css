@@ -120,3 +120,19 @@ h3 {
   max-width: 200px;
 }
 /** FIN UTILITIES **/
+
+/** NAVBAR STYLES **/
+
+.navbar-logo {
+  max-width: 200px;
+}
+.download-links img {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .download-links img {
+    margin-right: 10px;
+  }
+}
+/** FIN NAVBAR STYLES**/

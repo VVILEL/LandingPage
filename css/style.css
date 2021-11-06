@@ -1,0 +1,122 @@
+:root {
+  --clr-primary-text: #252a31;
+  --clr-secondary-text: #5f738c;
+  --clr-text-green-dark: #005c4e;
+  --bg-white: #fff;
+  --btn-normal-green: #2ba138;
+  --btn-normal-green-hover: #238b31;
+  --ff-primary: "Roboto";
+}
+
+/** GENERAL STYLES **/
+body {
+  overflow-x: hidden;
+  font-family: var(--ff-primary);
+  font-size: 16px;
+}
+
+header {
+  background: url("../img/Hero.jpg") no-repeat fixed center center;
+  background-size: cover;
+}
+
+section,
+.form-control {
+  background-color: var(--bg-white);
+}
+p {
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 18px;
+}
+/** END GENERAL STYLES **/
+
+/** UTILITIES **/
+.block {
+  display: block;
+}
+.boxshadow-effect {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.bold {
+  font-weight: bold;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.f-22 {
+  font-size: 22px;
+}
+
+.img-100 {
+  width: 100%;
+}
+.mtop-35 {
+  margin-top: 35px;
+}
+.align-center {
+  align-self: center;
+}
+.mbottom-0 {
+  margin-bottom: 0;
+}
+.mbttom-35 {
+  margin-bottom: 35px;
+}
+
+.mbottom-60 {
+  margin-bottom: 60px;
+}
+.p-40 {
+  padding: 40px;
+}
+
+.p-60 {
+  padding: 60px;
+}
+.pbottom-0 {
+  padding-bottom: 0px;
+}
+.psides-20 {
+  padding: 0 20px;
+}
+
+.ptop-40 {
+  padding-top: 40px;
+}
+
+.ptop-60 {
+  padding-top: 60px;
+}
+.ff-primary {
+  font-size: var(--ff-primary);
+}
+.t-primary {
+  color: var(--clr-primary-text);
+}
+
+.t-secondary {
+  color: var(--clr-secondary-text);
+}
+
+.t-green-dark {
+  color: var(--clr-text-green-dark);
+}
+
+.btn-normal-green {
+  background-color: var(--btn-normal-green);
+}
+.btn-normal-green:hover {
+  background-color: var(--btn-normal-green-hover);
+}
+.w-200 {
+  max-width: 200px;
+}
+/** FIN UTILITIES **/

@@ -1,0 +1,6 @@
+Scenario: Visitante envía mensaje para solicitar información
+Given el visitante está en la landing page
+When llegue a la sección "Contactanos"
+And llene los campos requeridos "Nombre", "Email", "Mensaje"
+And presione el botón "Enviar"
+Then se enviará el mensaje a la empresa para que sea atendido en el menor tiempo posible
